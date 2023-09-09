@@ -1,2 +1,2 @@
 # html-css
-#scrimba code along
+Scrimba code along
