@@ -1,0 +1,52 @@
+body{
+    font-family: Happy Monkey, cursive;
+    text-align: center;
+    background: #a2d2ff;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    
+}
+#nick-photo{
+    border-radius: 50%;
+    width: 150px;
+    border: 6px solid #EF80C9
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bday{
+    background: #EF80C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#bday-date{
+    background: #EF80C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+.gift-cover{
+    width: 400px;
+    height: 400px;
+    background-image: url("./gift-cover.jpg");
+    background-size: cover;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.gift-section{
+    margin-top: 45px;
+}
+.hover{
+    margin-top: 0;
+}
+.happy-for-you{
+    margin-bottom: 10px;
+}
+.gift-cover:hover{
+    background-image: url("./happy.gif");
+}
